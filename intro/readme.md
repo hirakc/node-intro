@@ -37,7 +37,7 @@ Architecture
 ------------
 ![Node Architecture](https://github.com/hirakchatterjee/node-intro/blob/master/intro/node_architecture_diagram.png)
 
-![Node Architecture](https://github.com/hirakchatterjee/node-intro/blob/master/intro/node_architecture_diagram2.png)
+![Node Architecture 2](https://github.com/hirakchatterjee/node-intro/blob/master/intro/node_architecture_diagram2.png)
 
 ![Event Loop](https://github.com/hirakchatterjee/node-intro/blob/master/intro/eventloop.png)
 
