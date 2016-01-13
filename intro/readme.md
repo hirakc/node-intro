@@ -35,7 +35,7 @@ Source
 
 Architecture
 ------------
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Node Architecture](https://github.com/hirakchatterjee/node-intro/blob/master/intro/node_architecture_diagram.png)
 
 Installing Node
 ---------------
