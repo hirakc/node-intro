@@ -85,10 +85,20 @@ REPL
 
 ```
 
+
+1) Pressing up and down arrow keys you can see command history and modify previous commands
+2) Press "tab" key to see the list of current commands. If you type a single character followed by "tab" it will show the list of keywords, functions, and variables starting with that particular character
+3) The REPL can handle multiline expression
+4) The REPL provides a special variable _ (underscore) which is used to pull the result of the last expression.
+5) Type ".save" and press "enter" / "return" key to save the current REPL session
+6) Type ".help" and press "enter" / "return" while you are inside REPL to get a list of commands for saving the current session or loading a javascript library
+
 Stopping Node js
 ----------------
 1) Node REPL processes run continuously until stopped.
-2) You can exit by typing "Ctl C" twice
+2) You can press "Ctrl + C" to terminate the current command
+3) You can exit by typing "Ctrl + C" twice
+4) To exit from the REPL press "Ctrl + D"
 
 Commenting a Node js file
 -------------------------
