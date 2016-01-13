@@ -110,3 +110,35 @@ Commenting a Node js file
 * // Can be used to comment out a line
 * /* will continuously comment until */
 * /** Is typically used to describe functions and objects for documentation parsers */
+
+Miscellaneous
+=============
+
+Globals
+--------
+* console
+* __filename, __dirname
+* process
+* module, exports
+
+Path Module
+-----------
+* path.normalize()
+* path.resolve()
+* path.dirname()
+* path.basename()
+
+Util
+----
+* util.puts()
+* util.print()
+* util.log()
+* util.format()
+
+Process
+--------
+* process.argv
+An Array of arguments sent through the command line.
+
+* process.stdin
+Standard input collected directly from the console.
