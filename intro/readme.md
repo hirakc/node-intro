@@ -54,3 +54,44 @@ Installing Node using NVM (node version manager)
 ------------------------------------------------
 You can checkout the step by step installation here:
 (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps)
+
+REPL
+====
+```
+    $ node
+    > var h = "Hello";
+    undefined
+    > var w = "World";
+    undefined
+    > function print(first, second) {
+    > ... return first + " " + second + "!        From Node js  ;)"
+    > ... }
+    undefined
+    > var r = print(h, w);
+    undefined
+    > console.log(r);
+    Hello World!          From Node js  ;)
+    undefined
+    > .save hello-world.js
+    Session saved to:hello-world.js
+    >
+    (^C again to quit)
+    >
+
+    $ node hello-world.js
+    Hello World!          From Node js  ;)
+
+    $
+
+```
+
+Stopping Node js
+----------------
+1) Node REPL processes run continuously until stopped.
+2) You can exit by typing "Ctl C" twice
+
+Commenting a Node js file
+-------------------------
+* // Can be used to comment out a line
+* /* will continuously comment until */
+* /** Is typically used to describe functions and objects for documentation parsers */
