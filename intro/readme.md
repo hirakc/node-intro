@@ -138,7 +138,9 @@ Util
 Process
 --------
 * process.argv
+
 An Array of arguments sent through the command line.
 
 * process.stdin
+ 
 Standard input collected directly from the console.
